@@ -1,0 +1,139 @@
+/* Base Reset */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+.header {
+  background-color: #1877f2;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.header-inline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.header-inline img {
+  height: 30px;
+}
+
+.header-inline h2 {
+  font-size: 22px;
+  margin: 0;
+  color: #1877f2;
+}
+
+/* Container Box */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+/* Lists */
+ul {
+  margin: 10px 0 30px;
+  padding-left: 20px;
+  color: #555;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.rules-box {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.rules-box ul {
+  padding-left: 20px;
+}
+
+/* Video */
+video {
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+/* Form Elements */
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+.submit-button, .submit-btn {
+  margin-top: 30px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover, .submit-btn:hover {
+  background-color: #145ecb;
+}
+
+/* Footer */
+.footer-note {
+  color: gray;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: #8a8d91;
+  margin: 40px 0 10px;
+}
+
+.instruction {
+  font-size: 14px;
+  color: #444;
+}
